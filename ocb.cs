@@ -30,7 +30,7 @@ class Result
         int[] sum_column=new int[n];
         string result="";
         
-        //sum of rows
+        
         for(int i=0;i<n;i++)
         {
             int sum=0;
@@ -41,7 +41,7 @@ class Result
             sum_row[i]=sum;
         }
         
-        //sum of columns
+        
         for(int j=0;j<n;j++)
         {
             int b=0;
